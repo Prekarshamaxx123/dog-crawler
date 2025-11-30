@@ -23,7 +23,7 @@ def run_module():
     # Linux 32-bit (PC)
     elif arc in ["i386", "i686", "x86"] or bit == "32bit":
         print("[+] Running Linux 32-bit version")
-        __import__("pre32").main()
+        __import__("ang32").main()
     
     # Linux 64-bit (PC)
     elif arc == "x86_64" or bit == "64bit":
