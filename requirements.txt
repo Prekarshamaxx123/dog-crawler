@@ -1,0 +1,9 @@
+requests
+beautifulsoup4
+fake-useragent
+colorama
+urllib3
+bs4
+cython
+
+
