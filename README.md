@@ -212,31 +212,6 @@ crawler.start_crawling()
 </tr>
 </table>
 
-<div align="center">
-
-## 🎪 **FEATURE ANIMATION SHOWCASE**
-
-```python
-# 🐕 Dog-Crawler in Action!
-┌─────────────────────────────────────────────────────────────┐
-│                    DOG-CRAWLER v2.0                         │
-│                                                             │
-│  🎯 Scanning: https://target.com                            │
-│  ⚡ Mode: FAST 🚀 | Threads: 5 | Delay: 1s                  │
-│                                                             │
-│  📊 Progress: ████████████████████ 85%                     │
-│  🔍 Found: 342 URLs | ⚡ Speed: 23 req/s                   │
-│  🎯 JavaScript Sites: 3 | 📝 Forms: 12                     │
-│  🔢 Sequential Patterns: 5 | 🌐 External: 45               │
-│                                                             │
-│  🎭 Features Activated:                                     │
-│  ✅ Smart URL Discovery    ✅ SPA Detection                 │
-│  ✅ Form Analysis          ✅ Error Resilience             │
-│  ✅ Pattern Recognition    ✅ Real-time Reporting          │
-└─────────────────────────────────────────────────────────────┘
-```
-
-</div>
 
 ## 🚀 Quick Start
 
@@ -358,34 +333,6 @@ Enter choice (1 or 2): 2
 
 <div align="center">
 
-## 🌟 **REAL-TIME PROGRESS DISPLAY**
-
-```python
-# 🎯 Live Crawling Dashboard
-┌─────────────────────────────────────────────────────────┐
-│                DOG-CRAWLER LIVE DASHBOARD               │
-├─────────────────────────────────────────────────────────┤
-│  🎯 Target: https://vulnerable-site.com                 │
-│  ⚡ Mode: ALL 🔍 | Threads: 8 | Running: 00:02:15       │
-│                                                         │
-│  📊 CRAWLING METRICS:                                  │
-│  ✅ Pages Crawled:   245  ┆ 🔍 URLs Found:   589       │
-│  ⚠️  Errors:          12  ┆ 🎯 Forms Found:    23       │
-│  🔢 Patterns:          7  ┆ 🌐 External:       45       │
-│  ⚡ JS Sites:          3  ┆ 📝 Input Fields:   67       │
-│                                                         │
-│  🎭 ACTIVE FEATURES:                                   │
-│  ████▊ 85% JavaScript Analysis                         │
-│  █████ 100% Form Detection                             │
-│  ████▌ 78% Sequential Pattern Generation               │
-│  █████ 100% URL Deduplication                          │
-│                                                         │
-│  ⚡ LIVE UPDATES:                                       │
-│  Thread 3: 🎯 Found form with 5 input fields!          │
-│  Thread 5: 🔍 Sequential pattern detected: page_*.php  │
-│  Thread 2: ⚡ JavaScript framework: React detected!     │
-└─────────────────────────────────────────────────────────┘
-```
 
 </div>
 
