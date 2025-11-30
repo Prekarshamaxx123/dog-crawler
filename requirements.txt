@@ -1,9 +1,10 @@
-requests
-beautifulsoup4
-fake-useragent
-colorama
-urllib3
-bs4
-cython
+requests>=2.32.5
+beautifulsoup4>=4.14.3
+fake-useragent>=2.2.0
+colorama>=0.4.6
+urllib3>=2.5.0
+bs4>=0.0.2
+cython>=3.2.2
+
 
 
