@@ -11,20 +11,12 @@
 
 *Powered by PREKASH TECH | WhatsApp: +94721986326*
 
-<br>
-
-<div align="center">
-
-🎯 **THE ULTIMATE WEB CRAWLING EXPERIENCE** 🎯
-
-</div>
-
 </div>
 
 ## 📖 Table of Contents
-- [🌟 Overview](#-overview)
-- [🚀 Quick Start](#-quick-start)
+- [Overview](#-overview)
 - [✨ Features](#-features)
+- [🚀 Quick Start](#-quick-start)
 - [📦 Installation](#-installation)
 - [🔧 Usage](#-usage)
 - [🌐 Onion Site Support](#-onion-site-support)
@@ -34,184 +26,40 @@
 - [📞 Contact & Support](#-contact--support)
 - [⚠️ Disclaimer](#️-disclaimer)
 
-## 🌟 Overview
+## 🎯 Overview
 
-<div align="center">
-
-**🐕 Dog-Crawler** - *The Most Advanced Web Crawling Solution*
+**Dog-Crawler** is an advanced, multi-threaded web crawling tool designed for comprehensive website reconnaissance and mapping. Built with cutting-edge technology, it supports both surface web and onion sites with dual crawling modes for flexible scanning operations.
 
 ```python
-# 🎯 Intelligent Web Reconnaissance
+# Example: Quick Start
 from dog_crawler import DogCrawler
 
-crawler = DogCrawler("https://target.com", mode="fast")
+crawler = DogCrawler("https://example.com", mode="fast")
 crawler.start_crawling()
 ```
 
-</div>
-
-**Dog-Crawler** is an elite, multi-threaded web crawling framework designed for comprehensive website reconnaissance and intelligence gathering. Built with cutting-edge technology, it supports both surface web and onion sites with dual crawling modes for flexible scanning operations.
-
-<div align="center">
-
-### 🎪 **ANIMATED FEATURE SHOWCASE**
-
-</div>
-
 ## ✨ Features
 
-### 🎯 **Core Crawling Engine**
-<table>
-<tr>
-<td width="50%">
+### 🎨 Core Capabilities
+- **🌐 Dual Crawling Modes** - FAST 🚀 & ALL 🔍 scanning options
+- **🕸️ Onion Site Support** - Complete .onion domain compatibility
+- **⚡ Multi-threaded** - High-speed parallel processing
+- **🎯 Smart URL Discovery** - Advanced duplicate prevention
+- **📁 File Type Categorization** - Automatic file classification
+- **🔒 SSL Bypass** - Self-signed certificate support
+- **🔍 Enhanced sequential detection** - Response similarity checking
+- **🌐 JavaScript site detection** - Auto URL extraction
+- **🗺️ Sitemap checking** - Additional URL discovery
+- **🚀 No Need Wordlist** -  Smart URL Discovery
+- **⭐ Smart parameter injectio** - Enhanced Prekash URL Generation
 
-#### 🚀 **Advanced Web Crawling**
-- ⚡ **Multi-threaded crawling** with configurable thread count
-- 🎯 **Depth-controlled crawling** with intelligent depth limits
-- 🌐 **Domain-specific crawling** - strictly targets main domain only
-- 🧅 **Onion site compatibility** with Tor network support
-- 🔓 **SSL verification bypass** for testing environments
-
-</td>
-<td width="50%">
-
-#### 🔍 **Smart URL Discovery**
-- 🔗 **HTML link extraction** from `<a>` tags
-- 📜 **JavaScript URL extraction** from script content
-- ⚛️ **SPA detection** for React, Angular, Vue applications
-- 🗺️ **Sitemap discovery** (sitemap.xml, robots.txt)
-- 🔢 **Sequential URL pattern detection** with smart number sequencing
-
-</td>
-</tr>
-</table>
-
-### 🛡️ **Advanced Detection Systems**
-<table>
-<tr>
-<td width="50%">
-
-#### ⚡ **JavaScript & SPA Intelligence**
-- 🔍 **React, Angular, Vue framework detection**
-- 🌊 **JavaScript-heavy site identification**
-- 🔄 **Dynamic content extraction** from SPAs
-- 🛣️ **Router-based URL discovery** in JavaScript applications
-- 🔌 **API endpoint detection** from JavaScript code
-
-</td>
-<td width="50%">
-
-#### 📝 **Form & Input Field Analysis**
-- 📋 **Automatic form detection** on all pages
-- ⌨️ **Input field extraction** (text, password, textarea, select)
-- ⚡ **JavaScript-generated form detection**
-- 🔍 **Form parameter analysis** and categorization
-- 🕵️ **Hidden field discovery**
-
-</td>
-</tr>
-</table>
-
-### 🛡️ **Error Resilience & Performance**
-<table>
-<tr>
-<td width="50%">
-
-#### 🔄 **Error-Resilient Crawling**
-- 🛡️ **404-proof crawling** - continues after 404 errors
-- 🔄 **Connection error recovery** - automatic retry mechanism
-- ⏱️ **Timeout handling** with configurable timeouts
-- 🔓 **SSL error bypass** for testing purposes
-- ♻️ **Continuous operation** despite individual page failures
-
-</td>
-<td width="50%">
-
-#### 💾 **Efficient Resource Management**
-- 💾 **Real-time file writing** - minimal RAM usage
-- 🔄 **URL deduplication** using MD5 hashing
-- 📈 **Incremental processing** - processes URLs as they're found
-- 🏗️ **Efficient data structures** for large-scale crawling
-
-</td>
-</tr>
-</table>
-
-### 🎨 **Enhanced Prekash URL Generation**
-<table>
-<tr>
-<td width="50%">
-
-#### 🔥 **Smart Parameter Injection**
-- 🎯 **One 'prekash' per URL** strategy
-- 🔄 **Multiple URL variants** for forms with multiple parameters
-- 📁 **Static file exclusion** - only targets pages with input fields
-- 👋 **Hello value assignment** for non-prekash parameters
-- 🎭 **Smart parameter injection** with 'prekash' values
-
-</td>
-<td width="50%">
-
-#### 📊 **Comprehensive Output System**
-- 📝 **Real-time progress tracking**
-- 📈 **Comprehensive statistics** (pages crawled, errors, files found)
-- 🔢 **Sequential pattern analysis**
-- ⚡ **JavaScript site detection reporting**
-- 🌐 **External domain discovery**
-
-</td>
-</tr>
-</table>
-
-### 🚀 **Advanced Technical Features**
-<table>
-<tr>
-<td width="50%">
-
-#### 🧠 **Sequential Pattern Intelligence**
-- 🔍 **Automatic number sequence detection**
-- 🎯 **Pattern-based URL generation**
-- ✅ **Response similarity validation**
-- 🛑 **Smart pattern stopping** after consecutive errors
-
-</td>
-<td width="50%">
-
-#### 🎭 **Security & Privacy**
-- 🎭 **Random User-Agent rotation**
-- ⏳ **Request delay customization**
-- 🔓 **SSL certificate verification toggle**
-- 🧅 **Onion site specialization**
-
-</td>
-</tr>
-</table>
-
-### 📈 **Analysis & Intelligence**
-<table>
-<tr>
-<td width="50%">
-
-#### 🏗️ **Website Structure Analysis**
-- ⚡ **JavaScript framework identification**
-- 🌊 **SPA vs traditional website detection**
-- 📋 **Form discovery and analysis**
-- ⌨️ **Input field parameter mapping**
-- 📚 **Resource dependency mapping**
-
-</td>
-<td width="50%">
-
-#### 🔍 **Pattern Recognition**
-- 🔢 **URL numbering patterns**
-- 📝 **Parameter naming conventions**
-- 📁 **File structure patterns**
-- 🔌 **API endpoint patterns**
-
-</td>
-</tr>
-</table>
-
+### 🔧 Technical Features
+- **Colorized Console Output** - Beautiful terminal interface
+- **Progress Tracking** - Real-time scanning statistics
+- **Error Handling** - Robust network error management
+- **Cross-Platform** - Windows, Linux, and Kali Linux compatible
+- **No Dependencies** - Easy setup and deployment
+- **Patterns Auto-Detected** - Sequential patterns auto-detected and generated
 
 ## 🚀 Quick Start
 
@@ -219,9 +67,9 @@ crawler.start_crawling()
 - Python 3.7 or higher
 - Internet connection
 - For onion sites: Tor browser (optional)
-
+- 
 <div align="center">
-
+   
 🛑 **Termux 32bit,64bit and Linux 64bit Only Working !!** 🛑
 
 </div>
@@ -242,32 +90,6 @@ pip install -r requirements.txt
 # Run the crawler
 python dog-crawler.py
 ```
-
-<div align="center">
-
-## ⚡ **QUICK DEMO**
-
-```bash
-# 🎯 Example Session - Watch Dog-Crawler Work!
-> python dog-crawler.py
-
-┌─────────────────────────────────────────────────────────┐
-│                 🐕 DOG-CRAWLER ACTIVATED                │
-├─────────────────────────────────────────────────────────┤
-│  Target: https://example.com                            │
-│  Mode: FAST 🚀 | Threads: 5 | Delay: 1s                │
-│  Features: JavaScript Detection ✅ Form Analysis ✅     │
-│            Pattern Recognition ✅ Error Resilience ✅   │
-└─────────────────────────────────────────────────────────┘
-
-🎯 Starting Intelligent Crawling...
-⚡ Thread 1: Found 15 URLs | Forms: 2
-⚡ Thread 2: JavaScript Site Detected! Extracting URLs...
-⚡ Thread 3: Sequential Pattern Found! Generating variants...
-📊 Progress: [████████████████----] 75% | URLs: 128
-```
-
-</div>
 
 ## 📦 Installation
 
@@ -331,11 +153,6 @@ Select Crawl Mode:
 Enter choice (1 or 2): 2
 ```
 
-<div align="center">
-
-
-</div>
-
 ## 🌐 Onion Site Support
 
 Dog-Crawler provides seamless onion site crawling capabilities:
@@ -373,6 +190,11 @@ python dog-crawler.py
 # - Disables SSL verification
 # - Handles Tor network delays
 ```
+<img width="1426" height="79" alt="Screenshot 2025-11-29 221720" src="https://github.com/user-attachments/assets/7d53aeb9-ff74-4ef3-b219-93a24e53c48a" />
+<img width="1572" height="985" alt="Screenshot 2025-11-29 221636" src="https://github.com/user-attachments/assets/0879b4ef-6f3d-430e-9cc0-370bde548d52" />
+<img width="1635" height="878" alt="Screenshot 2025-11-29 221612" src="https://github.com/user-attachments/assets/bbe15148-aa6a-4266-a7a6-28b3a9e3af51" />
+<img width="1476" height="780" alt="Screenshot 2025-11-29 221558" src="https://github.com/user-attachments/assets/1eac6523-d794-4f3f-ba64-cc0e0d933f5d" />
+
 
 ## 📊 Crawling Modes
 
@@ -398,28 +220,6 @@ python dog-crawler.py
 | Speed | 🚀 Very Fast | 🐢 Moderate |
 | Resource Usage | Low | High |
 | Output Detail | Essential URLs | Complete Map |
-
-<div align="center">
-
-## 🎯 **INTELLIGENT FEATURE MATRIX**
-
-```python
-# 🏆 Dog-Crawler Feature Activation Map
-┌───────────────────┬────────────┬────────────┐
-│     FEATURE       │  FAST 🚀   │  ALL 🔍    │
-├───────────────────┼────────────┼────────────┤
-│ JavaScript Detect │    ✅      │    ✅      │
-│ Form Analysis     │    ✅      │    ✅      │
-│ Pattern Detection │    ✅      │    ✅      │
-│ SPA Support       │    ✅      │    ✅      │
-│ Deep Crawling     │    ❌      │    ✅      │
-│ Full Resources    │    ❌      │    ✅      │
-│ External URLs     │    ✅      │    ✅      │
-│ Onion Sites       │    ✅      │    ✅      │
-└───────────────────┴────────────┴────────────┘
-```
-
-</div>
 
 ## 📁 Output Structure
 
@@ -477,26 +277,6 @@ urllib3>=1.26.0          # HTTP client library
 - **Storage**: 100MB free space
 - **Network**: Stable internet connection
 
-<div align="center">
-
-## 🎪 **PERFORMANCE BENCHMARKS**
-
-```python
-# ⚡ Dog-Crawler Performance Metrics
-┌──────────────────────┬─────────────┬─────────────┐
-│      METRIC          │  FAST 🚀    │  ALL 🔍     │
-├──────────────────────┼─────────────┼─────────────┤
-│ Avg. URLs/Minute     │    250+     │    120+     │
-│ Memory Usage         │    <100MB   │    <200MB   │
-│ Concurrent Threads   │  5 (default)│  5 (default)│
-│ Error Recovery       │   99.5%     │   99.2%     │
-│ JS Detection Accuracy│   98.7%     │   99.1%     │
-│ Form Detection Rate  │   96.3%     │   97.8%     │
-└──────────────────────┴─────────────┴─────────────┘
-```
-
-</div>
-
 ## 📞 Contact & Support
 
 <div align="center">
@@ -547,19 +327,6 @@ This project is licensed for educational use. Commercial use requires explicit p
 
 <div align="center">
 
-## 🎉 **DOG-CRAWLER SUCCESS STORIES**
-
-```python
-# 🏆 What Users Are Saying:
-┌─────────────────────────────────────────────────────────┐
-│  "Dog-Crawler found 3x more URLs than other tools!"     │
-│  "The JavaScript detection is incredibly accurate!"     │
-│  "Form analysis helped us find hidden endpoints!"       │
-│  "Best crawler for penetration testing!"               │
-│  "Onion site support works flawlessly!"                │
-└─────────────────────────────────────────────────────────┘
-```
-
 **🐕 Dog-Crawler - Worldwide Best Crawling Tool**  
 *Advanced Web Reconnaissance Solution*
 
@@ -568,15 +335,6 @@ This project is licensed for educational use. Commercial use requires explicit p
 </div>
 
 ## 🔄 Update Log
-
-### Version 2.0 - Enhanced Edition
-- ✅ Advanced JavaScript & SPA detection
-- ✅ Intelligent form analysis
-- ✅ Enhanced Prekash URL generation
-- ✅ Sequential pattern intelligence
-- ✅ Real-time progress dashboard
-- ✅ Comprehensive error resilience
-- ✅ Memory-optimized architecture
 
 ### Version 1.0.0
 - Initial release with dual crawling modes
@@ -592,19 +350,5 @@ This project is licensed for educational use. Commercial use requires explicit p
 
 ---
 
-<div align="center">
-
-## 🚀 **GET STARTED NOW!**
-
-```bash
-# 🎯 One-Command Setup
-git clone https://github.com/Prekarshamaxx123/dog-crawler.git
-cd dog-crawler && python dog-crawler.py
-```
-
-**Experience the power of advanced web crawling today!**
-
 *Last Updated: November 2025*  
 *© 2025 PREKASH. All Rights Reserved.*
-
-</div>
