@@ -263,11 +263,13 @@ Scan completed: 2024-01-15 14:30:22
 
 ### Python Packages
 ```txt
-requests>=2.28.0          # HTTP requests handling
-beautifulsoup4>=4.11.0    # HTML parsing
-fake-useragent>=1.1.0     # User-Agent rotation
-colorama>=0.4.0          # Colored console output
-urllib3>=1.26.0          # HTTP client library
+requests>=2.32.5          # HTTP requests handling
+beautifulsoup4>=4.14.3    # HTML parsing
+fake-useragent>=2.2.0     # User-Agent rotation
+colorama>=0.4.6          # Colored console output
+urllib3>=2.5.0          # HTTP client library
+bs4>=0.0.2
+cython>=3.2.2
 ```
 
 ### System Requirements
