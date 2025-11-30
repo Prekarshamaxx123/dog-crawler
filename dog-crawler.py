@@ -13,7 +13,7 @@ def run_module():
     # ARM 32-bit (Termux/Linux)
     if arc in ["armv7l", "armv6l", "armhf"] or arc.startswith("arm") and not arc.startswith("aarch"):
         print("[+] Running ARM 32-bit version")
-        __import__("pre32").main()
+        __import__("ang32").main()
     
     # ARM 64-bit (Termux/Linux)  
     elif arc == "aarch64":
