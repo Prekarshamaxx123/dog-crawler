@@ -68,7 +68,7 @@ crawler.start_crawling()
 - 
 <div align="center">
    
-🛑 *Termux 32bit,64bit and Linux 64bit Only Working !!* 🛑
+🛑 **Termux 32bit,64bit and Linux 64bit Only Working !!** 🛑
 
 </div>
 
