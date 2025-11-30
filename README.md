@@ -74,6 +74,19 @@ crawler.start_crawling()
 
 </div>
 
+
+### Requirements File
+```txt
+Python 3.13.9
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+fake-useragent>=1.1.0
+colorama>=0.4.0
+urllib3>=1.26.0
+bs4>=0.0.2
+cython>=3.2.2
+```
+
 ### Basic Usage
 ```bash
 # Clone or download the script
@@ -107,15 +120,6 @@ pip install requests beautifulsoup4 fake-useragent colorama
 git clone https://github.com/Prekarshamaxx123/dog-crawler.git
 cd dog-crawler
 pip install -r requirements.txt
-```
-
-### Requirements File
-```txt
-requests>=2.28.0
-beautifulsoup4>=4.11.0
-fake-useragent>=1.1.0
-colorama>=0.4.0
-urllib3>=1.26.0
 ```
 
 ## 🔧 Usage
