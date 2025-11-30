@@ -67,7 +67,7 @@ crawler.start_crawling()
 - For onion sites: Tor browser (optional)
 - 
 <div align="center">
-🛑 **Termux 32bit,64bit and Linux 64bit Only Working !!** 🛑
+🛑 *Termux 32bit,64bit and Linux 64bit Only Working !!* 🛑
 </div>
 
 ### Basic Usage
