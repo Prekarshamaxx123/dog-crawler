@@ -67,10 +67,10 @@ crawler.start_crawling()
 - Python 3.7 or higher
 - Internet connection
 - For onion sites: Tor browser (optional)
-- 
 <div align="center">
    
 🛑 **Termux 32bit,64bit and Linux 64bit Only Working !!** 🛑
+please Requirements Versions check
 
 </div>
 
