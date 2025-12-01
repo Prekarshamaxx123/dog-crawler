@@ -71,7 +71,7 @@ crawler.start_crawling()
    
 🛑 **Termux 32bit,64bit and Linux 64bit Only Working !!** 🛑
 
-please Requirements Versions check
+please Requirements Versions check - we try auto install
 
 </div>
 
