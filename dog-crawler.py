@@ -25,7 +25,7 @@ def show_step_by_step_install():
         print("   \033[92mpkg update -y && pkg install -y git curl build-essential openssl readline libffi zlib\033[0m")
         
         print("\n2. Install pyenv:")
-        print("   \033[92mcurl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash\033[0m")
+        print("   \033[92mcurl https://pyenv.run | bash\033[0m")
         
         print("\n3. Add pyenv to PATH (temporary for current session):")
         print("   \033[92mexport PATH=\"$HOME/.pyenv/bin:$PATH\"\033[0m")
@@ -50,7 +50,7 @@ def show_step_by_step_install():
         print("   \033[92msudo apt update && sudo apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev git\033[0m")
         
         print("\n2. Install pyenv:")
-        print("   \033[92mcurl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash\033[0m")
+        print("   \033[92mcurl https://pyenv.run | bash\033[0m")
         
         print("\n3. Add pyenv to PATH (temporary for current session):")
         print("   \033[92mexport PATH=\"$HOME/.pyenv/bin:$PATH\"\033[0m")
