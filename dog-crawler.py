@@ -90,6 +90,8 @@ def install_python_version(version):
     
     
     print(f"[+] Installing Python {version} with pyenv...")
+    print(f"[+] We Want One Minutes. Wait ...")
+
     install_cmd = f"~/.pyenv/bin/pyenv install {version} --skip-existing"
     if subprocess.call(install_cmd, shell=True) != 0:
         print(f"[!] Failed to install Python {version}")
