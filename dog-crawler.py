@@ -68,7 +68,7 @@ def install_python_version(version):
             subprocess.call("source ~/.zshrc", shell=True)
         else:
             
-            linux_cmd = "sudo apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev git"
+            linux_cmd = "sudo apt update && sudo apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev git"
             if subprocess.call(linux_cmd, shell=True) != 0:
                 print("[!] Failed to install Linux dependencies")
                 return False
