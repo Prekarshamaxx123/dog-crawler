@@ -195,10 +195,9 @@ python dog-crawler.py
 # - Disables SSL verification
 # - Handles Tor network delays
 ```
-<img width="1426" height="79" alt="Screenshot 2025-11-29 221720" src="https://github.com/user-attachments/assets/7d53aeb9-ff74-4ef3-b219-93a24e53c48a" />
-<img width="1572" height="985" alt="Screenshot 2025-11-29 221636" src="https://github.com/user-attachments/assets/0879b4ef-6f3d-430e-9cc0-370bde548d52" />
-<img width="1635" height="878" alt="Screenshot 2025-11-29 221612" src="https://github.com/user-attachments/assets/bbe15148-aa6a-4266-a7a6-28b3a9e3af51" />
-<img width="1476" height="780" alt="Screenshot 2025-11-29 221558" src="https://github.com/user-attachments/assets/1eac6523-d794-4f3f-ba64-cc0e0d933f5d" />
+<img width="1346" height="879" alt="Screenshot 2025-11-29 232058" src="https://github.com/user-attachments/assets/c22f19a9-3c7f-4325-b40f-447ac8810602" />
+<img width="715" height="687" alt="Screenshot 2025-11-29 221612" src="https://github.com/user-attachments/assets/e2f175fc-5b61-46d1-b2fb-589bf2169875" />
+
 
 
 ## 📊 Crawling Modes
