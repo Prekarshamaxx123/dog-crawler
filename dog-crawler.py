@@ -281,6 +281,8 @@ def run_module(module_name, module_file):
     print(f"[+] Python: {sys.version_info.major}.{sys.version_info.minor}.{sys.version_info.micro}")
     print(f"[+] Running: {module_name}")
     print(f"[+] Module: {module_file}")
+    print(f"[+] Add me star ⭐")
+    os.system(f'xdg-open https://github.com/Prekarshamaxx123/dog-crawler')
     print("-" * 50)
     
     try:
@@ -302,7 +304,7 @@ def main():
     print(f"\n[✓] Python version OK")
     print(f"[✓] Module found: {module_file}")
     print(f"[✓] All packages installed")
-    os.system(f'xdg-open https://github.com/Prekarshamaxx123/dog-crawler')
+    
 
     time.sleep(1)
     
