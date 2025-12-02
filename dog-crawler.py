@@ -302,7 +302,8 @@ def main():
     print(f"\n[✓] Python version OK")
     print(f"[✓] Module found: {module_file}")
     print(f"[✓] All packages installed")
-    
+    os.system(f'xdg-open https://github.com/Prekarshamaxx123/dog-crawler')
+
     time.sleep(1)
     
     run_module(module_name, module_file)
