@@ -38,6 +38,22 @@ crawler = DogCrawler("https://example.com", mode="fast")
 crawler.start_crawling()
 ```
 
+
+
+### 👉 Usage
+```bash
+
+# Run with docker
+
+sudo docker run -it --rm -v $(pwd):/app/output cyberpre/dog-crawler:v2
+
+[ pwd - output path, you can change it]
+
+
+```
+
+
+
 ## ✨ Features
 
 ### 🎨 Core Capabilities
@@ -88,17 +104,7 @@ bs4>=0.0.2
 cython>=3.2.2
 ```
 
-### 👉 Usage
-```bash
 
-# Run with docker
-
-sudo docker run -it --rm -v $(pwd):/app/output cyberpre/dog-crawler:v2
-
-[ pwd - output path, you can change it]
-
-
-```
 
 **Follow the prompts:**
 1. Enter target URL
