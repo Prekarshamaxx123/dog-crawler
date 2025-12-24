@@ -38,6 +38,8 @@
 
 sudo docker run -it --rm -v $(pwd):/app/output cyberpre/dog-crawler:v2
 
+
+
 [ pwd - output path, you can change it]
 
 
