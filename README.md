@@ -88,47 +88,14 @@ bs4>=0.0.2
 cython>=3.2.2
 ```
 
-### Basic Usage
+### Docker
 ```bash
-# Clone or download the script
-git clone https://github.com/Prekarshamaxx123/dog-crawler.git
-cd dog-crawler
+# Run with docker
 
-# Create a virtual environment
-python3 -m venv prekarsha_env
-source prekarsha_env/bin/activate
+sudo docker run -it --rm -v $(pwd):/app/output cyberpre/dog-crawler:v2
 
-# Install requirements
-pip install -r requirements.txt
+[ pwd - output path ]
 
-# Run the crawler
-python dog-crawler.py
-```
-
-## 📦 Installation
-
-### Method 1: Direct Download
-```bash
-# Download the script
-wget https://github.com/Prekarshamaxx123/dog-crawler/blob/main/dog-crawler.py
-
-# Install dependencies
-pip install requests beautifulsoup4 fake-useragent colorama
-```
-
-### Method 2: Git Clone
-```bash
-git clone https://github.com/Prekarshamaxx123/dog-crawler.git
-cd dog-crawler
-pip install -r requirements.txt
-```
-
-## 🔧 Usage
-
-### Interactive Mode
-```bash
-python dog-crawler.py
-```
 
 **Follow the prompts:**
 1. Enter target URL
