@@ -30,17 +30,8 @@
 
 **Dog-Crawler** is an advanced, multi-threaded web crawling tool designed for comprehensive website reconnaissance and mapping. Built with cutting-edge technology, it supports both surface web and onion sites with dual crawling modes for flexible scanning operations.
 
-```python
-# Example: Quick Start
-from dog_crawler import DogCrawler
 
-crawler = DogCrawler("https://example.com", mode="fast")
-crawler.start_crawling()
-```
-
-
-
-### 👉 Usage
+### 👉 Command 
 ```bash
 
 # Run with docker
