@@ -88,13 +88,16 @@ bs4>=0.0.2
 cython>=3.2.2
 ```
 
-### Docker
+### 👉 Usage
 ```bash
+
 # Run with docker
 
 sudo docker run -it --rm -v $(pwd):/app/output cyberpre/dog-crawler:v2
 
-[ pwd - output path ]
+[ pwd - output path, you can change it]
+
+
 ```
 
 **Follow the prompts:**
