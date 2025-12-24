@@ -95,7 +95,7 @@ cython>=3.2.2
 sudo docker run -it --rm -v $(pwd):/app/output cyberpre/dog-crawler:v2
 
 [ pwd - output path ]
-
+```
 
 **Follow the prompts:**
 1. Enter target URL
