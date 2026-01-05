@@ -149,7 +149,7 @@ Dog-Crawler provides seamless onion site crawling capabilities:
    ```python
    sudo apt install tor
    sudo systemctl start tor
-   proxychains4 python dog-crawler.py
+   proxychains sudo docker run -it --rm -v $(pwd):/app/output cyberpre/dog-crawler:v2
    ```
 
 ### Onion Site Usage
