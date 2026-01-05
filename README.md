@@ -78,7 +78,6 @@ sudo docker run -it --rm -v $(pwd):/app/output cyberpre/dog-crawler:v2
 - For onion sites: Tor browser (optional)
 <div align="center">
    
-🛑 **Termux 32bit,64bit and Linux 64bit Only Working !!** 🛑
 
 please Requirements Versions check - we try auto install
 
