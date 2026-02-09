@@ -36,7 +36,7 @@
 
 # Run with docker
 
-sudo docker run -it --rm -v $(pwd):/app/output cyberpre/dog-crawler:v3
+sudo docker run -it --rm -v $(pwd):/app/output cyberpre/dog-crawler:v4
 
 
 
