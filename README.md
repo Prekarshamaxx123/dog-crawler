@@ -42,6 +42,8 @@ sudo docker run -it --rm -v $(pwd):/app/output cyberpre/dog-crawler:v2
 
 [ pwd - output path, you can change it]
 
+🤖 First time you want download 300MB. (chromium-driver)
+
 
 ```
 
@@ -94,6 +96,7 @@ colorama>=0.4.0
 urllib3>=1.26.0
 bs4>=0.0.2
 cython>=3.2.2
+selenium==4.40.0
 ```
 
 
